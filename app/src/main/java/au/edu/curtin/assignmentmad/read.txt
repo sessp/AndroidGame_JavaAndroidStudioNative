@@ -1,0 +1,15 @@
+This was compiled in Lab 232.
+
+Notes:
+- When you first launch the app you have to move, anywhere, in order for the display to update.
+Also sometimes the status bar updates slow/you need to click twice in order for it to update.
+
+Function note included:
+- Couldn't get the area database to work, so there's not area database. The player database is implemented but not the area one.
+
+
+Known Issues:
+- Sometimes you need to delete the database/uninstall the app on the emulator in order for the map creation to be shown. I have no idea why.
+- One in every 10ish compiles results in a nullexception. I know it has something to do the with random array generator and one or two elements
+being null but i wasn't able to fix it. In order to get around this just recompile the problem.
+- Sometimes after using the improbability driver it has an affect where the numbers change to really long decimals. Everything is still the same and accurate except there're too a lot of decimal places.
